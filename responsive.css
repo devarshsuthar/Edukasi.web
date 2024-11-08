@@ -1,0 +1,374 @@
+@media only screen and (max-width:600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container .title-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .title-bar .location {
+        display: none;
+    }
+
+
+    .title-bar button {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 490px;
+
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .first-section-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section-container .left {
+        display: flex;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    .first-section-container .left h1{
+        width: 500px;
+        font-size: 40px;
+    }
+
+    .first-section-container .left p{
+        width: 500px;
+        height: auto;
+        font-size: 13px;
+    }
+
+    .first-section-container .left button{
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-bottom: 400px;
+    }
+
+
+    .first-section-container .right {
+        width: auto;
+        height: auto;
+
+    }
+
+    .right img {
+        width: 90%;
+        height: auto;
+        margin-left: 2px;
+        margin-top: -400px;
+
+    }
+
+    .icon {
+        display: none;
+
+    }
+
+    .icon img {
+        width: 90px;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: -60px;
+        gap: 5px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+
+    }
+
+
+    .second-section button {
+        display: none;
+    }
+
+    .cards-one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .therd-section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .therd-first-section {
+        display: none;
+    }
+
+    .therd-second-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+
+    }
+
+    .therd-second-section h4 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .therd-second-section p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .therd-second-section .second-section-data {
+        width: 450px;
+    }
+
+    .four-section-container {
+        border: 5px solid slateblue;
+        display: none;
+
+    }
+
+    .four-section {
+        display: flex;
+        width: 600px;
+    }
+
+    .four-text-section {}
+
+    .five-section-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 5px;
+    }
+
+    .five-section-container h3 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .five-section-container p {
+        font-size: 14px;
+    }
+
+    .five-section-container .cards-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cards-section .card-3 {
+        width: 200px;
+        height: 200px;
+        display: flex;
+
+    }
+
+    .six-section-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .six-section-container .first-section-1 {
+        display: none;
+    }
+
+
+
+    .second-section-1 h5 {
+        font-size: 16px;
+        width:600px;
+    }
+
+    .second-section-1 p {
+        width: 450px;
+        text-align: center;
+        font-size:15px;
+    }
+
+    .second-section-1 button {
+        padding: 10px;
+    }
+
+
+    .six-section-container .therd-section-1 {
+        display: none;
+    }
+
+    .seven-section-container {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .seven-section-container .left-section {
+        width: auto;
+        height: auto;
+        display: flex;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .left-section h3 {
+        width: 600px;
+        font-size: 25px;
+    }
+
+    .left-section p {
+        width: 600px;
+        font-size: 15px;
+
+    }
+
+    .left-section span {
+        width: 420px;
+        height: 50px;
+        font-weight: normal;
+        margin-right: 30px;
+    }
+
+
+    .left-section .watch {
+        display: none;
+    }
+
+    .seven-section-container .right-section {
+        display: none;
+    }
+
+    .eight-section-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .eight-section-container h4 {
+        font-size: 25px;
+    }
+
+    .eight-section-container p {
+        width: 600px;
+        font-size: 13px;
+    
+
+    }
+
+    .eight-section-container .cards {
+        flex-direction: column;
+    }
+
+    .main-container .nine-section-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+
+    .nine-section-container .first-card-container {
+        width: 430px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        gap: 20px;
+
+    }
+
+    .first-card-container .image-section {
+        display: none;
+    }
+
+    .nine-section-container .first-card-container .font-section h1 {
+        font-size: 25px;
+    }
+
+    .font-section {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 70px;
+    }
+
+    .font-section span {
+        width: 450px;
+        font-size: 13px;
+    }
+
+
+    .input-section input {
+        width: 280px;
+
+
+    }
+
+    .input-section button {}
+
+
+    .nine-section-container .last-navbar-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .last-navbar-section .last-first-section {
+        width: 510px;
+        height: 200px;
+        margin-top: 100px;
+
+    }
+
+    .last-second-section {
+        width: 450px;
+        height: 230px;
+
+    }
+
+    .last-third-section {
+        width: 450px;
+        height: 230px;
+
+    }
+
+
+    .last-four-section {
+        width: 450px;
+        height: 230px;
+
+    }
+
+
+
+}
